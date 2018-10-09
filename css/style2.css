@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+
+
+
+
+
+/* header h1 el titulo del documento*/	
+}
+
+header h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+	color: white;
+	
+
+}
+/*header img principal del documento*/
+header img{
+	width: 50%;
+	align-content: center;
+	background-color: white;
+	background-size: 500px;
+	background-attachment: scroll;
+	background-position: top;
+	padding: 10px;
+	padding-right: 300px ;
+	padding-left: 300px;
+	background-repeat: no-repeat;
+
+}
+/*-------------------------------------*/
+/* inicia la lista del menu */
+nav{
+	padding-top: 10px;
+	padding-bottom: 20px; 
+	/*margin-right: 50px;
+	margin-left: 50px;*/
+	background-color: black;
+	padding-left: 150px;
+
+
+}
+
+
+#menu li{
+	padding:30px;
+	margin: 0px auto;
+    overflow: hidden;
+    height: 100px;
+    display: inline;
+    position: center;
+    
+	
+}
+
+#menu li a{
+	font-family:sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	text-orientation: center;
+	padding: 5px;
+	background-color: #505050;
+	color: #ffffff;
+}
+#menu li a:hover{
+	background-color:#000000;
+	color: white;
+	margin-top:-5px;
+	margin-left: 5px;
+	margin-right:5px;
+	padding-bottom: 10px;
+}
+/*---------inicia el css de la seccion main----------------------*/
+
+.main .articles{
+	text-align: center;color: black;
+	padding: 20px;
+	font-size:20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: black;
+	padding-bottom: 100px;
+}
+
+h2{
+	padding-bottom: 30px;
+}
+
+/*---------- inicia el css  de article contentvideos---------------------*/
+
+#contentvideos a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: wait;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+/*---------- inicia el css  de article contentfotos---------------------*/
+
+
+div #contentfotos article{
+margin: auto;
+padding: auto;
+width: 300px;
+
+
+}
+/*---------- inicia el css de footer---------------------*/
+
+footer{
+	width: 100%;
+	height: 30px;
+	margin-top: 200px;
+	background-color:black;
+	color:white; 
+	text-align: center;
+	padding-top: 10px;
+	position: static;
+	font-family: sans-serif;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+

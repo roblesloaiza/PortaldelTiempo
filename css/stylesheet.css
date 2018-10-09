@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+}
+/* Los titulos son H3*/ 
+.titulos {
+	font-family: arial,sans-serif;
+	text-shadow: 2px 2px red;
+}
+
+p {
+	font-family: arial,sans-serif;
+	color: white;
+}
+
+cite{
+	font-family: helvetica;
+	color: red;
+
+	}
+
+	#menu{
+background-color: #000;
+}
+
+body{
+	background-color: black;  
+	font-family: arial;
+  	background-repeat: no-repeat;
+  	margin: 0 auto;
+}
+
+/* Esto agrega efecto hover al menu */
+  #menu ul li a:hover {
+background-color: #2CBFAD;
+}
+
+/* Esto aremueve bullets, margins y padding del menu- aunque no se si es necesario, ya que lo mismo esta arriba de la pagina. Confirmar con la profesora- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/* Posicionamiento del menu*/
+li {
+    float: left;
+    position: relative;
+    display: absolute;
+}
+/* Esto da forma al la caja que bordea el menu */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Esto agrega borde, padding, background, imagen, etc, a los sections con ID article# */ 
+ #articles {
+	border: 5px double black;
+	padding: 5 px;
+	background: black;
+	
+	background-image: url(../60s.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#articles2 {
+	border: 5px double black;
+	padding: 5 px;
+	background: green;
+	
+	background-image: url(../60s-image.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#articles3 {
+	border: 5px double black;
+	padding: 5 px;
+	background: black;
+	
+	background-image: url(../lp.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#articles4 {
+	border: 5px double black;
+	padding: 5 px;
+	background: red;
+	
+	background-image: url(../test5.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#articles5 {
+	border: 5px double black;
+	padding: 5 px;
+	background: red;
+	
+	background-image: url(../test5.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+/* Aqui acaba lo que agrega borde, padding, background, imagen, etc, a los sections con ID article# */
+
+

@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+  background-color: #F2F2F2;  
+  font-family: arial;
+  background-repeat: no-repeat;
+ 
+}
+
+#menu{
+  z-index: 999;
+  background-color: #707B7C;
+  width: 100%;
+}
+
+#menu ul{
+  list-style: none;
+  margin: 10;
+  padding: auto 0;
+}
+
+
+#menu ul li{
+display: inline-block;
+}
+
+#menu ul li a{
+color: white;
+display: block;
+padding: 18px 68px;
+text-decoration: none;
+}
+
+#menu ul li a:hover{
+background-color: #5555ff;}
+
+table {
+/* define la fuente del navegador por default */
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 50%, text-align: center;
+padding: 5px 8px 5px 3px;
+margin: 0 auto;
+
+}
+
+td, th{
+  border: 2px solid #000;
+  text-align: center;
+  /*
+  padding: 8px;
+  padding-right: 6px;
+  */
+  padding: 5px 8px 5px 3px;
+
+}
+
+td:hover{
+background-color: #000;
+
+}
+
+
+
+
+.history{
+  color: #000;
+  text-align: center;
+}
+
