@@ -403,6 +403,8 @@ nav.next-prev {
 		top: 3500px;
 		left:10px;
 		}
+
+/* --------------prueba ----------------*/
 	
 	
 
@@ -413,12 +415,13 @@ nav.next-prev {
 			border: 2px solid green;
 			border-bottom: #8E5AFF;
     		border-top-color: #29E4E8;
-            padding: 50px 620px 100px 100px;
+            padding: 50px 750px 100px 100px;
             background-image: url(../img/900.jpg);
             background-repeat: repeat-x;
             background-attachment: fixed;
             background-position: center;
             border-radius: 0px 120px 0px 120px;
+			
                 
             
         }    
@@ -428,12 +431,14 @@ nav.next-prev {
    			border: 2px solid green;
     		border-bottom: #8E5AFF;
 			border-top-color: #29E4E8;
-            padding:  50px 500px 100px 100px ;
-            background-image: url(../img/900.jpg);
+            padding:  50px 750px 100px 100px ;
+			background-image: url(../img/1920s1.jpg) ;
             background-repeat: repeat-x;
             background-attachment: fixed;
             background-position: center;
             border-radius: 0px 120px 0px 120px ;
+			
+			
         }    
         
        #ejemplo3{
@@ -441,7 +446,7 @@ nav.next-prev {
             border: 2px solid green;
     		border-bottom: #8E5AFF;
 		   	border-top-color: #29E4E8;
-            padding: 50px 10px 100px 300px;
+            padding: 50px 750px 100px 100px;
 		   	background-image: url(../img/900.jpg);
             background-repeat: repeat-x;
             background-attachment: fixed;
@@ -454,7 +459,7 @@ nav.next-prev {
             border: 2px solid green;
     		border-bottom: #8E5AFF;
 			border-top-color: #29E4E8;
-            padding: 50px 500px 100px 100px;
+            padding: 50px 750px 100px 100px;
             background-image: url(../img/900.jpg);
             background-repeat: repeat-x;
             background-attachment: fixed;
@@ -466,7 +471,7 @@ nav.next-prev {
             border: 2px solid green;
     		border-bottom: #8E5AFF;
 			border-top-color: #29E4E8;
-            padding: 50px 10px 100px 710px;
+            padding: 50px 750px 100px 110px;
             background-image: url(../img/900.jpg);
             background-repeat: repeat-x;
             background-attachment: fixed;
@@ -479,6 +484,66 @@ nav.next-prev {
           
 
 /* --------------prueba ----------------*/
+
+/* --------------portales ----------------*/
+
+	#portal1 {
+		position: absolute;
+		top: 700px;
+		left: 870px;
+		}
+	#portal2 {
+		position: absolute;
+		top: 1400px;
+		left: 360px;
+		}
+	#portal3 {
+		position: absolute;
+		top: 2100px;
+		left: 870px;
+		}
+	#portal4 {
+		position: absolute;
+		top: 2800px;
+		left:360px;
+		}
+	#portal5 {
+		position: absolute;
+		top: 3500px;
+		left:870px;
+		}
+
+/* --------------prueba ----------------*/
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
 
 
