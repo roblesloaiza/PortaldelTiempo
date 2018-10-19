@@ -79,7 +79,7 @@ nav{
 }
 /*---------inicia el css de la seccion main----------------------*/
 
-.main .articles{
+.main .articles.{
 	text-align: center;color: black;
 	padding: 20px;
 	font-size:20px;
@@ -87,11 +87,12 @@ nav{
 	color: white;
 	background-color: black;
 	padding-bottom: 100px;
-}
+	}
 
 h2{
 	padding-bottom: 30px;
-}
+	
+	background-color: black;
 
 /*---------- inicia el css  de article contentvideos---------------------*/
 
@@ -108,13 +109,126 @@ h2{
 /*---------- inicia el css  de article contentfotos---------------------*/
 
 
-div #contentfotos article{
+ #contentfotos .main{
 margin: auto;
-padding: auto;
-width: 300px;
+padding-left:10px;
+width: 1200px;
+height: 900px;
+float: left;
+
+
 
 
 }
+.one{
+	padding-top: 100px;
+	padding-left: 100px
+	/*position: relative;*/
+	
+
+}
+
+
+#one{
+	width: 300px;
+	height: 210px;
+	opacity:1;
+	border: 3px solid #73AD21;
+	
+
+}
+
+.two{
+	
+	float: left;
+	position: relative;
+	top: -205px;
+	padding-left: 500px;
+	bottom: 300px;
+
+
+	
+
+}
+
+#two{
+	width: 200px;
+	height: auto;
+	float: left;
+	position: relative;
+	border: 3px solid #73AD21;
+
+
+}
+    
+.three{
+	padding-top: 300px;
+	padding-left: 100px;
+	position: relative;
+
+}
+
+
+#three{
+	width: 300px;
+	height: 200px;
+	opacity:1;
+	
+
+}
+
+.four{
+	padding-top: 100px;
+	padding-left: 100px;
+	position: relative;
+
+
+}
+
+
+#four{
+	width: 300px;
+	height: 200px;
+	opacity:1;
+	
+
+}
+
+.five{
+	
+	float: left;
+	position: relative;
+	padding-left: 500px;
+	margin-bottom: : 600px;
+
+}
+
+#five{
+	width: 40%;
+	height: auto;
+
+}
+.six{
+	width: 300px;
+	height: 200px;
+	opacity:1;
+	
+
+}
+
+#six{
+	padding-top: 100px;
+	padding-left: 100px;
+	position: relative;
+
+}
+
+
+
+
+
+
+
 /*---------- inicia el css de footer---------------------*/
 
 footer{
