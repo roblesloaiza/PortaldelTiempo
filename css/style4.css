@@ -1,15 +1,1 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-
-body{
-	background: #87DE93;
-}
-
-header nav{
-	margin: 0 auto;
-	background: #528FD5;
-	overflow: hidden;   /* sirve para mantener el color del cajo en el header */
-}
 
