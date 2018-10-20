@@ -2,12 +2,21 @@
 	margin: 0;
 	padding: 0;
 
-
-
-
-
-/* header h1 el titulo del documento*/	
 }
+
+body{
+
+	background-image: url(../img/img-8.jpg)
+	/* imagen de fondo del documento*/
+			
+
+
+
+}
+
+
+/*  Aca esta el  h1 el titulo header del documento*/	
+
 
 header h1{
 	font-family: sans-serif;
@@ -16,35 +25,30 @@ header h1{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: black;
 	color: white;
 	
 
 }
-/*header img principal del documento*/
+/* Aca es donde esta img principal del header  documento*/
 header img{
 	width: 50%;
 	align-content: center;
-	background-color: white;
 	background-size: 500px;
 	background-attachment: scroll;
-	background-position: top;
+	background-position: center;
 	padding: 10px;
 	padding-right: 300px ;
 	padding-left: 300px;
 	background-repeat: no-repeat;
+	right: :300px;
 
 }
-/*-------------------------------------*/
-/* inicia la lista del menu */
+
+/*  aca es donde se edita el menu del nav */
 nav{
 	padding-top: 10px;
 	padding-bottom: 20px; 
-	/*margin-right: 50px;
-	margin-left: 50px;*/
-	background-color: black;
 	padding-left: 150px;
-
 
 }
 
@@ -77,43 +81,71 @@ nav{
 	margin-right:5px;
 	padding-bottom: 10px;
 }
-/*---------inicia el css de la seccion main----------------------*/
+/*---------inicia el css de la seccion main-----(titulo y parrafo)-----------------*/
 
-.main .articles.{
+.articles.main{
 	text-align: center;color: black;
 	padding: 20px;
 	font-size:20px;
 	margin-bottom: 20px;
-	color: white;
-	background-color: black;
+	color: white;	
 	padding-bottom: 100px;
+	padding-left: 50px;
 	}
 
 h2{
 	padding-bottom: 30px;
-	
-	background-color: black;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
 
-/*---------- inicia el css  de article contentvideos---------------------*/
+p{
+	padding-bottom: 30px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	text-indent: 20px;
+	padding-left: 10px;
+	
+}
+
+
+/*--- inicia el css  de article contentvideos----*/
+/* aca  estan los enlases para ver los videos */
+
 
 #contentvideos a:-webkit-any-link {
     color: -webkit-link;
-    cursor: wait;
+    color: white;
+    cursor: pointer;
     text-decoration: none;
     display: block;
     font-family: sans-serif;
     font-size: 20px;
+    text-indent: 10px;
+    padding-top: 10px;
+    text-align: center;
+
 
 }
 
-/*---------- inicia el css  de article contentfotos---------------------*/
+
+
+
+
+
+/*---------- inicia el css  de article contentfotos
+cada id y cada div editado por aparte de cada imagen----------------*/
+
+
 
 
  #contentfotos .main{
 margin: auto;
 padding-left:10px;
 width: 1200px;
-height: 900px;
+height: 700px;
 float: left;
 
 
@@ -122,7 +154,7 @@ float: left;
 }
 .one{
 	padding-top: 100px;
-	padding-left: 100px
+	padding-left: 150px
 	/*position: relative;*/
 	
 
@@ -130,10 +162,10 @@ float: left;
 
 
 #one{
-	width: 300px;
-	height: 210px;
+	width: 400px;
+	height: 230px;
 	opacity:1;
-	border: 3px solid #73AD21;
+	border: 10px solid #2471A3;
 	
 
 }
@@ -142,108 +174,108 @@ float: left;
 	
 	float: left;
 	position: relative;
-	top: -205px;
-	padding-left: 500px;
+	top: -235px;
+	padding-left: 650px;
 	bottom: 300px;
-
-
 	
 
 }
 
 #two{
-	width: 200px;
-	height: auto;
+	width: 280px;
+	height: 220px;
 	float: left;
 	position: relative;
-	border: 3px solid #73AD21;
-
+	border: 10px solid #2471A3;
 
 }
     
 .three{
-	padding-top: 300px;
-	padding-left: 100px;
-	position: relative;
-
+	width: 300px;
+	height: auto;
+	padding-left: 150px;
+	top: -335px;
 }
 
 
 #three{
-	width: 300px;
-	height: 200px;
-	opacity:1;
-	
+	width: 400px;
+	height: 250px;
+	border: 10px solid #2471A3;
 
 }
 
 .four{
-	padding-top: 100px;
-	padding-left: 100px;
+	float: left;
 	position: relative;
-
-
+	top: -255px;
+	padding-left: 650px;
+	bottom: 300px;
 }
 
 
 #four{
-	width: 300px;
-	height: 200px;
-	opacity:1;
-	
+	width: 280px;
+	height: 230px;
+	float: left;
+	position: relative;
+	border: 10px solid #2471A3;
+
 
 }
 
 .five{
 	
-	float: left;
-	position: relative;
-	padding-left: 500px;
-	margin-bottom: : 600px;
+	width: 350px;
+	height: auto;
+	padding-left: 140px;
+	padding-top: 10px;
 
 }
 
 #five{
-	width: 40%;
-	height: auto;
+	width: 350px;
+	height: 310px;
+	border: 10px solid #2471A3;
+
 
 }
 .six{
-	width: 300px;
-	height: 200px;
-	opacity:1;
+	float: left;
+	position: relative;
+	top: -315px;
+	padding-left: 590px;
 	
-
 }
+
+
 
 #six{
-	padding-top: 100px;
-	padding-left: 100px;
+	width: 380px;
+	height: 280px;
+	float: left;
 	position: relative;
+	border: 10px solid #2471A3;
+
 
 }
-
-
-
-
 
 
 
 /*---------- inicia el css de footer---------------------*/
-
-footer{
-	width: 100%;
-	height: 30px;
-	margin-top: 200px;
-	background-color:black;
-	color:white; 
-	text-align: center;
-	padding-top: 10px;
-	position: static;
-	font-family: sans-serif;
-	
-
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color:black;
+  text-align: center;
+  color:white; 
+  bottom: -20px;
+  font-size: 20px;
+  width: 100%;
 }
+
 
 
 
