@@ -65,6 +65,14 @@ header nav ul li a:hover{  /*CAMBIO SOBRE OPCION MENU*/
 	padding: 10px;
 }
 
+#veintes h2, p{
+	margin: 10px;
+	text-align: justify;
+	font-family: "Arial", "Verdana", sans-serif;
+	color:#ECF0F1;
+
+}
+
 #treintas{
 	background-color: rgba(255, 0, 0, 0.6);
 	width: 75%;
@@ -77,7 +85,7 @@ header nav ul li a:hover{  /*CAMBIO SOBRE OPCION MENU*/
 }
 
 footer{
-	background-color: rgba(255, 0, 0,0.6);
+	background-color: rgba(211, 206, 205, 0.6);
 	width: 75%;
 	float: left;
 	margin-left: 145px;
